@@ -1,0 +1,105 @@
+site_name: DSA Interview Handbook
+site_description: Pattern-mastery handbook for senior software engineering coding interviews.
+docs_dir: docs
+site_dir: site
+
+validation:
+  omitted_files: ignore
+  not_found: warn
+  absolute_links: ignore
+  unrecognized_links: ignore
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+nav:
+  - Home: index.md
+  - Roadmap:
+      - Learning roadmap: roadmap/learning-roadmap.md
+      - Interview strategy: roadmap/interview-strategy.md
+      - Problem index: roadmap/problem-index.md
+  - Fundamentals:
+      - Complexity: fundamentals/complexity.md
+      - Arrays: fundamentals/arrays.md
+      - Strings: fundamentals/strings.md
+      - Recursion: fundamentals/recursion.md
+  - Patterns:
+      - HashMap / HashSet: patterns/hashmap-hashset.md
+      - Two pointers: patterns/two-pointers.md
+      - Sliding window: patterns/sliding-window.md
+      - Prefix sum: patterns/prefix-sum.md
+      - Binary search: patterns/binary-search.md
+      - Intervals: patterns/intervals.md
+      - Stack: patterns/stack.md
+      - Monotonic stack: patterns/monotonic-stack.md
+      - Heap: patterns/heap-priority-queue.md
+      - Fast / slow pointers: patterns/fast-slow-pointers.md
+      - Greedy: patterns/greedy.md
+  - Data structures:
+      - Linked list: data-structures/linked-list.md
+      - Trees: data-structures/trees.md
+      - BST: data-structures/bst.md
+      - Trie: data-structures/trie.md
+      - Graphs: data-structures/graphs.md
+      - Union find: data-structures/union-find.md
+  - Algorithms:
+      - DFS / BFS: algorithms/dfs-bfs.md
+      - Topological sort: algorithms/topological-sort.md
+      - Shortest path: algorithms/shortest-path.md
+      - Backtracking: algorithms/backtracking.md
+      - Dynamic programming: algorithms/dynamic-programming.md
+      - Bit manipulation: algorithms/bit-manipulation.md
+  - Problems:
+      - Overview: problems/README.md
+      - Contains Duplicate: problems/easy/contains-duplicate.md
+      - Two Sum: problems/easy/two-sum.md
+      - Best Time to Buy and Sell Stock: problems/easy/best-time-buy-sell-stock.md
+      - Top K Frequent Elements: problems/medium/top-k-frequent-elements.md
+      - Longest Substring Without Repeating: problems/medium/longest-substring-without-repeating-characters.md
+  - Revision:
+      - Pattern cheatsheet: revision/pattern-cheatsheet.md
+      - Complexity cheatsheet: revision/complexity-cheatsheet.md
+      - Java DSA cheatsheet: revision/java-dsa-cheatsheet.md
+      - Common mistakes: revision/common-mistakes.md
+      - Interview templates: revision/interview-templates.md
+  - Progress:
+      - Tracker: progress/progress.md
+      - Revision log: progress/revision-log.md
+  - Style guide: STYLE_GUIDE.md
