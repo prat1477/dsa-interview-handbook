@@ -16,11 +16,11 @@ not upfront.
 | Area | Target | Planned | Completed | Doc path |
 | --- | ---: | ---: | ---: | --- |
 | Arrays | 4 | 4 | 1 | [A1](../problems/easy/best-time-buy-sell-stock.md) |
-| HashMap / HashSet | 4 | 5 | 2 | [H0](../problems/easy/contains-duplicate.md), [H1](../problems/easy/two-sum.md) |
+| HashMap / HashSet | 4 | 5 | 3 | [H0](../problems/easy/contains-duplicate.md), [H1](../problems/easy/two-sum.md), [H4](../problems/medium/subarray-sum-equals-k.md) |
 | Strings | 3 | 3 | 1 | [S2](../problems/medium/longest-substring-without-repeating-characters.md) |
 | Two Pointers | 4 | 4 | 0 | (sorted Two Sum only) |
 | Sliding Window | 5 | 5 | 1 | [S2](../problems/medium/longest-substring-without-repeating-characters.md) |
-| Prefix Sum | 2 | 2 | 0 | — |
+| Prefix Sum | 2 | 2 | 1 | [PS2](../problems/medium/subarray-sum-equals-k.md) |
 | Binary Search | 4 | 4 | 0 | — |
 | Intervals | 3 | 3 | 0 | — |
 | Stack / Monotonic Stack | 5 | 5 | 0 | — |
@@ -35,7 +35,7 @@ not upfront.
 | Greedy | 3 | 3 | 0 | — |
 | Dynamic Programming | 5 | 5 | 0 | — |
 | Bit Manipulation | 2 | 2 | 0 | — |
-| **Total** | **~60** | **73** | **5** | — |
+| **Total** | **~60** | **73** | **6** | — |
 
 > Count may trim slightly as we merge cosmetic duplicates during study.
 
@@ -60,7 +60,7 @@ not upfront.
 | H1 | Two Sum | Easy | Hash complement | Comfortable |
 | H2 | Group Anagrams | Medium | Hash by key | Planned |
 | H3 | Longest Consecutive Sequence | Medium | Hash set + chain | Planned |
-| H4 | Subarray Sum Equals K | Medium | Prefix sum + hash | Planned |
+| H4 | Subarray Sum Equals K | Medium | Prefix sum + hash | Learning |
 
 ### Strings (3)
 
@@ -98,7 +98,7 @@ not upfront.
 | # | Problem | Difficulty | Status |
 | --- | --- | --- | --- |
 | PS1 | Range Sum Query — Immutable | Easy | Planned |
-| PS2 | Subarray Sum Equals K | Medium | Planned | *(also H4)* |
+| PS2 | Subarray Sum Equals K | Medium | Learning | [doc](../problems/medium/subarray-sum-equals-k.md) *(also H4)* |
 
 ### Binary Search (4)
 
@@ -262,4 +262,4 @@ Recommended next (new pattern depth — two pointers):
 1. **TP3** — Container With Most Water
 2. **TP2** — 3Sum
 
-Then continue the senior shortlist as time allows: `#560` Subarray Sum Equals K, `#56` Merge Intervals, `#146` LRU Cache, `#23` Merge K Sorted Lists.
+Then continue the senior shortlist as time allows: `#56` Merge Intervals, `#146` LRU Cache, `#23` Merge K Sorted Lists.

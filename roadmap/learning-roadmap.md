@@ -27,7 +27,7 @@ manipulation with correct edge-case thinking, and recognize when hashing helps.
 | --- | --- | --- | --- |
 | 5 | Two Pointers | [`patterns/two-pointers.md`](../patterns/two-pointers.md) | Learning (Two Sum alternative only) |
 | 6 | Sliding Window | [`patterns/sliding-window.md`](../patterns/sliding-window.md) | Learning |
-| 7 | Prefix Sum | [`patterns/prefix-sum.md`](../patterns/prefix-sum.md) | Not Started |
+| 7 | Prefix Sum | [`patterns/prefix-sum.md`](../patterns/prefix-sum.md) | Learning (via [PS2](../problems/medium/subarray-sum-equals-k.md)) |
 | 8 | Binary Search | [`patterns/binary-search.md`](../patterns/binary-search.md) | Not Started |
 | 9 | Intervals | [`patterns/intervals.md`](../patterns/intervals.md) | Not Started |
 | 10 | Stack | [`patterns/stack.md`](../patterns/stack.md) | Not Started |

@@ -93,6 +93,7 @@ nav:
       - Best Time to Buy and Sell Stock: problems/easy/best-time-buy-sell-stock.md
       - Top K Frequent Elements: problems/medium/top-k-frequent-elements.md
       - Longest Substring Without Repeating: problems/medium/longest-substring-without-repeating-characters.md
+      - Subarray Sum Equals K: problems/medium/subarray-sum-equals-k.md
   - Revision:
       - Pattern cheatsheet: revision/pattern-cheatsheet.md
       - Complexity cheatsheet: revision/complexity-cheatsheet.md

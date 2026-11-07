@@ -12,6 +12,7 @@ Only rows you have actually used. Unstudied patterns stay as a one-liner pointer
 | Two pointers | Ends on **sorted** data | O(n) | Pair sum when ordered; indices not required | [two-pointers.md](../patterns/two-pointers.md) |
 | Bounded min-heap | Keep k candidates | O(n + u log k) | Top k and **k ≪ u** | [heap-priority-queue.md](../patterns/heap-priority-queue.md) |
 | Sliding window | Contiguous + constraint | O(n) | Longest/shortest valid substring/subarray | [sliding-window.md](../patterns/sliding-window.md) |
+| Prefix sum + HashMap | Prefix difference → count | O(n) avg | Count subarrays with sum k; negatives OK | [subarray-sum-equals-k.md](../problems/medium/subarray-sum-equals-k.md) |
 
 **If I see X, think Y**
 
@@ -22,10 +23,11 @@ Running best state                          → Two scalars, not full history
 Sorted pair                                 → Two pointers (not automatic HashMap)
 Top K + K << unique count                   → Bounded min-heap
 Contiguous range + constraint + best length → Sliding window
+Count subarrays, exact sum k, negatives allowed → Prefix sum + frequency map
 ```
 
 ## Not yet studied (do not fake fluency)
 
-Prefix sum · binary search · intervals · stack · graphs · DP · …
+Binary search · intervals · stack · graphs · DP · …
 
 Full stub list remains in git under `patterns/` and `algorithms/` for navigation only.

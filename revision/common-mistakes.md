@@ -59,3 +59,12 @@ Interview mistakes to watch for — add your own as you practice.
 | “HashMap is O(1)” | O(1) **average-case** |
 | “Top K always heap” | Heap when k ≪ u; sort is fine when k ≈ u |
 | Expect `PriorityQueue` size k | Explicit `if (size() > k) poll()` |
+
+## From problems studied (2026-10-18)
+
+| Mistake | Fix |
+| --- | --- |
+| Subarray Sum K: sliding window on sum with negatives | Prefix sum + frequency map; window needs monotonic sums |
+| Subarray Sum K: map stores index like Two Sum | Store **prefix → count** when counting subarrays |
+| Subarray Sum K: forget `0 → 1` or add `currentSum == k` too | Init empty prefix once; lookup handles starts at index `0` |
+| Subarray Sum K: increment map before lookup | Lookup `currentSum - k` first, then record current prefix |

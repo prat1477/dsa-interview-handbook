@@ -26,6 +26,7 @@ Recall drills do not always require full re-implementation. Valid prompts:
 | Best Time to Buy and Sell Stock | Problem | 2026-09-07 | 2026-09-10 | 2026-09-14 | 2026-09-28 | 2026-10-22 | min buy + max profit |
 | Top K Frequent Elements | Problem | 2026-09-07 | 2026-09-10 | 2026-09-14 | 2026-09-28 | 2026-10-22 | min-heap size k |
 | Longest Substring Without Repeating | Problem | 2026-09-07 | 2026-09-10 | 2026-09-14 | 2026-09-28 | 2026-10-22 | while-shrink; O(n) pointers |
+| Subarray Sum Equals K | Problem | 2026-10-18 | 2026-10-21 | 2026-10-25 | 2026-11-08 | 2026-12-02 | prefix freq; `0→1`; lookup before put |
 
 ---
 
@@ -46,6 +47,7 @@ Recall drills do not always require full re-implementation. Valid prompts:
 | A1 | Best Time to Buy and Sell Stock | State tracking | 2026-09-07 | | | | | Comfortable |
 | HP2 | Top K Frequent Elements | Heap | 2026-09-07 | | | | | Comfortable |
 | S2 | Longest Substring Without Repeating | Sliding window | 2026-09-07 | | | | | Comfortable |
+| H4 / PS2 | Subarray Sum Equals K | Prefix sum + HashMap | 2026-10-18 | | | | | Learning |
 
 ---
 

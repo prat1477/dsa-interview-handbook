@@ -127,7 +127,7 @@ HashSet in window vs sliding window      — set is the window state, not a diff
 | — | [Top K Frequent](../problems/medium/top-k-frequent-elements.md) (map + heap) | Documented |
 | H2 | Group Anagrams | Planned |
 | H3 | Longest Consecutive Sequence | Planned |
-| H4 | Subarray Sum Equals K | Planned |
+| H4 | [Subarray Sum Equals K](../problems/medium/subarray-sum-equals-k.md) | Documented |
 
 ## Revision notes
 

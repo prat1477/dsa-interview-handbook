@@ -5,7 +5,7 @@ Mastery levels: **Not Started** → **Learning** → **Practicing** → **Comfor
 > Solving a problem once does **not** mean Interview Ready. Use spaced repetition in
 > [`revision-log.md`](revision-log.md).
 
-**Last updated:** 2026-09-07
+**Last updated:** 2026-10-18
 
 ---
 
@@ -13,7 +13,7 @@ Mastery levels: **Not Started** → **Learning** → **Practicing** → **Comfor
 
 | Metric | Value |
 | --- | --- |
-| Problems with docs | 5 / ~60 |
+| Problems with docs | 6 / ~60 |
 | Problems Interview Ready | 0 |
 | Current phase | Phase 2 — Two Pointers next |
 | Current module | High-ROI patterns (window, heap started) |
@@ -41,10 +41,10 @@ Mastery levels: **Not Started** → **Learning** → **Practicing** → **Comfor
 | Complexity | [`complexity.md`](../fundamentals/complexity.md) | — | — | Learning | 2026-08-22 | Formal proofs; amortized |
 | Arrays | [`arrays.md`](../fundamentals/arrays.md) | 1/4 | 0 | Practicing | 2026-09-07 | Confusing max price vs max profit |
 | Strings | [`strings.md`](../fundamentals/strings.md) | 1/3 | 0 | Learning | 2026-09-07 | Substring vs subsequence |
-| HashMap / HashSet | [`hashmap-hashset.md`](../patterns/hashmap-hashset.md) | 2/4 | 0 | Practicing | 2026-09-07 | Put-before-lookup on Two Sum |
+| HashMap / HashSet | [`hashmap-hashset.md`](../patterns/hashmap-hashset.md) | 3/4 | 0 | Practicing | 2026-10-18 | Prefix counts vs indexes (H4) |
 | Two Pointers | [`two-pointers.md`](../patterns/two-pointers.md) | 0/4 | 0 | Learning | 2026-09-07 | Only as Two Sum alternative |
 | Sliding Window | [`sliding-window.md`](../patterns/sliding-window.md) | 1/5 | 0 | Learning | 2026-09-07 | `if` vs `while`; remove vs left++ order |
-| Prefix Sum | [`prefix-sum.md`](../patterns/prefix-sum.md) | 0/2 | 0 | Not Started | — | — |
+| Prefix Sum | [`prefix-sum.md`](../patterns/prefix-sum.md) | 1/2 | 0 | Learning | 2026-10-18 | `0→1` init; lookup before put |
 | Binary Search | [`binary-search.md`](../patterns/binary-search.md) | 0/4 | 0 | Not Started | — | — |
 | Intervals | [`intervals.md`](../patterns/intervals.md) | 0/3 | 0 | Not Started | — | — |
 | Stack | [`stack.md`](../patterns/stack.md) | 0/5 | 0 | Not Started | — | — |
@@ -74,6 +74,7 @@ Mastery levels: **Not Started** → **Learning** → **Practicing** → **Comfor
 | A1 | [Best Time to Buy and Sell Stock](../problems/easy/best-time-buy-sell-stock.md) | State tracking | Comfortable |
 | HP2 | [Top K Frequent Elements](../problems/medium/top-k-frequent-elements.md) | HashMap + min-heap | Comfortable |
 | S2 | [Longest Substring Without Repeating Characters](../problems/medium/longest-substring-without-repeating-characters.md) | Sliding window | Comfortable |
+| H4 / PS2 | [Subarray Sum Equals K](../problems/medium/subarray-sum-equals-k.md) | Prefix sum + HashMap | Learning |
 
 Comfortable ≠ Interview Ready. Run Day 3/7 recall before upgrading.
 

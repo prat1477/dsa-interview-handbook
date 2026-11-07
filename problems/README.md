@@ -11,6 +11,7 @@ Individual problem write-ups — added only after interactive study.
 | [`easy/best-time-buy-sell-stock.md`](easy/best-time-buy-sell-stock.md) | Running state |
 | [`medium/top-k-frequent-elements.md`](medium/top-k-frequent-elements.md) | HashMap + min-heap |
 | [`medium/longest-substring-without-repeating-characters.md`](medium/longest-substring-without-repeating-characters.md) | Sliding window |
+| [`medium/subarray-sum-equals-k.md`](medium/subarray-sum-equals-k.md) | Prefix sum + HashMap |
 
 Index: [`roadmap/problem-index.md`](../roadmap/problem-index.md).
 
