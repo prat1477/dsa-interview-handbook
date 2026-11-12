@@ -14,6 +14,12 @@ handbook optimizes for **high interview ROI**: recognize patterns, reason clearl
 implement clean Java, and discuss trade-offs — without turning into competitive
 programming prep.
 
+## Read online
+
+The published handbook is available at
+**https://prat1477.github.io/dsa-interview-handbook/**. Pushes to `main` rebuild
+and republish the site through GitHub Pages.
+
 **Success metric:** Can you walk into a senior interview, see an unfamiliar problem,
 stay calm, identify the underlying pattern, and implement a clean solution?
 

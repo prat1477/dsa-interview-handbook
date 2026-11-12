@@ -1,5 +1,7 @@
 site_name: DSA Interview Handbook
 site_description: Pattern-mastery handbook for senior software engineering coding interviews.
+site_url: https://prat1477.github.io/dsa-interview-handbook/
+repo_url: https://github.com/prat1477/dsa-interview-handbook
 docs_dir: docs
 site_dir: site
 
